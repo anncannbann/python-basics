@@ -9,6 +9,6 @@ def guess(x):
             print('Sorry, Guess Again.Your guess is low.')
         elif(guess> random_no):
             print('Sorry, guess Again.Your guess is higher.')
-        else:
-            print('You guessed it Wohooo!!😨')
+    
+    print(f'You guessed it Wohooo!!😨. it was {random_no}')
 guess(10)
